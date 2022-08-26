@@ -17,7 +17,7 @@ contract MintBasic is ERC721Enumerable, Ownable {
     string public orderBookURI;
     uint256 public cost = .0 ether;
     bool public paused = false;
-    uint256 public maxSupply = 10000;
+    uint256 public maxSupply = 1000;
     uint256 public minted = 0;
     string public json = ".json";
 
